@@ -5,16 +5,12 @@ A RAG (Retrieval Augmented Generation) application designed to enable users to c
 #Features
 
 • Upload and process PDF files.
-
 • Retrieve answers to user questions based on PDF content.
-
 • Interactive chatbot interface for real-time querying.
-
 • RAG pipeline implementation for improved accuracy and relevance.
-
 • Streamlit-powered web interface for user-friendly operation.
 
-Technologies Used
+#Technologies Used
 
 • Python: Core programming language.
 • Streamlit: For building the web-based user interface.
@@ -23,12 +19,12 @@ Technologies Used
 • GeminiAI API: For language generation and answering user queries.
 • Pickle: For serializing and deserializing index files.
 
-Setup Instructions
-Prerequisites
+#Setup Instructions
+#Prerequisites
 • Python 3.8 or later
 • Pip package manager
 • GeminiAI API key
-Installation Steps
+#Installation Steps
 1. Clone this repository:
 git clone https://github.com/Yashwanthkumar-45/RAG-Chat-with-PDF-Gemini-AI.git
 2. Navigate to the project directory:
@@ -44,7 +40,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 5. Add your GeminiAI API key in the code or as environment variables.
 
-Usage Instructions
+#Usage Instructions
 1. Start the Streamlit app:
 streamlit run app.py
 2. Open the app in your browser at http://localhost:8501.
@@ -52,7 +48,8 @@ streamlit run app.py
 o Upload a PDF file.
 o Ask questions and get answers based on the PDF content.
 
-File Structure
+#File Structure
+
 RAG-Chat-with-PDF-Gemini-AI/
 ├── app.py             # Main application script
 ├── requirements.txt   # Dependencies for the project
@@ -61,17 +58,17 @@ RAG-Chat-with-PDF-Gemini-AI/
 ├── .gitignore         # Git ignore file
 └── README.md          # Documentation
 
-Known Issues
+#Known Issues
 • ValueError: If a deserialization error occurs, set allow_dangerous_deserialization=True (only if the data source is trusted).
 • Ensure FAISS is correctly installed and configured for your platform.
 
-Contributing
+#Contributing
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
 
-License
+#License
 This project is licensed under the MIT License.
 
-Acknowledgments
+#Acknowledgments
 • GeminiAI for their powerful APIs.
 • Streamlit for enabling rapid UI development.
 • LangChain and FAISS for robust data handling and vector similarity search.
