@@ -1,0 +1,18 @@
+# Ignore virtual environments
+venv/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs and temp files
+*.log
+.DS_Store
+
+# Ignore environment or secret files
+.env
+.streamlit/secrets.toml
+
+# Ignore FAISS index files if not necessary for sharing
+faiss_index/
