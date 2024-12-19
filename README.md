@@ -1,14 +1,21 @@
-﻿RAG Chat with PDF Using Gemini AI
+﻿#RAG Chat with PDF Using Gemini AI
+
 A RAG (Retrieval Augmented Generation) application designed to enable users to chat with PDF documents using the power of Gemini AI. This project leverages advanced machine learning and natural language processing (NLP) techniques to retrieve relevant information from PDF files and answer user queries interactively.
 
-Features
+#Features
+
 • Upload and process PDF files.
+
 • Retrieve answers to user questions based on PDF content.
+
 • Interactive chatbot interface for real-time querying.
+
 • RAG pipeline implementation for improved accuracy and relevance.
+
 • Streamlit-powered web interface for user-friendly operation.
 
 Technologies Used
+
 • Python: Core programming language.
 • Streamlit: For building the web-based user interface.
 • LangChain: For managing the RAG pipeline and embeddings.
