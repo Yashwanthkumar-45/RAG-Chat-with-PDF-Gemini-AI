@@ -22,24 +22,24 @@ Prerequisites<br></br>
 • Pip package manager<br></br>
 • OpenAI API key<br></br>
 Installation Steps<br></br>
-1. Clone this repository:<br></br>
+1. Clone this repository:  
 git clone https://github.com/Yashwanthkumar-45/RAG-Chat-with-PDF-Gemini-AI.git  
-2. Navigate to the project directory:<br></br>
+2. Navigate to the project directory:
 cd RAG-Chat-with-PDF-Gemini-AI  
-3. Create and activate a virtual environment:<br></br>
+3. Create and activate a virtual environment:
 python -m venv venv  
 source venv/bin/activate        # On Linux/Mac  
 venv\Scripts\activate          # On Windows  
-4. Install dependencies:<br></br>
+4. Install dependencies:
 pip install -r requirements.txt  
-5. Add your OpenAI API key in the code or as environment variables.<br></br>
+5. Add your OpenAI API key in the code or as environment variables.
 
 **Usage Instructions**<br></br>
-1. Start the Streamlit app:<br></br>
-streamlit run app.py  
+1. Start the Streamlit app:
+streamlit run app.py
 2. Open the app in your browser at http://localhost:8501.
-3. Interact with the chatbot:<br></br>
-o Upload a PDF file.<br></br>
+3. Interact with the chatbot:
+o Upload a PDF file.
 o Ask questions and get answers based on the PDF content.<br></br>
 
 **File Structure**<br></br>
@@ -52,7 +52,7 @@ RAG-Chat-with-PDF-Gemini-AI/
 └── README.md          # Documentation  
 
 **Known Issues**<br></br>
-• ValueError: If a deserialization error occurs, set allow_dangerous_deserialization=True (trusted data only).<br></br>
+• ValueError: If a deserialization error occurs, set allow_dangerous_deserialization=True (trusted data only).
 • Ensure FAISS is correctly installed and configured for your platform.<br></br>
 
 **Contributing**<br></br>
@@ -62,7 +62,7 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 This project is licensed under the MIT License.
 
 **Acknowledgments**<br></br>
-• OpenAI for their powerful APIs.
+• GeminiAI for their powerful APIs.
 • Streamlit for enabling rapid UI development.
-• LangChain and FAISS for robust data handling and vector similarity search.
+• LangChain and FAISS for robust data handling and vector similarity search.<br></br>
 
