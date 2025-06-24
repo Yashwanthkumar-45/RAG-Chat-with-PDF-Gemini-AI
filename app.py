@@ -41,7 +41,7 @@ load_dotenv()
 # Configure GenAI
 genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
 
-@st.cache_data(show_spinner=False)
+#@st.cache_data(show_spinner=False)
 def is_pdf_searchable(pdf_bytes: bytes) -> bool:
     """Check if PDF contains text layers."""
     try:
