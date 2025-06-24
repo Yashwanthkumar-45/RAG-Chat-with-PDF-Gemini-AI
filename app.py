@@ -54,7 +54,7 @@ def is_pdf_searchable(pdf_bytes: bytes) -> bool:
     except Exception:
         return False
 
-@st.cache_data(show_spinner="Processing PDF...")
+#@st.cache_data(show_spinner="Processing PDF...")
 def get_pdf_text(pdf_docs: List[st.runtime.uploaded_file_manager.UploadedFile]) -> str:
     """Extracts text from PDFs using PyPDF2 and OCR if needed."""
     pdf_text = ''
